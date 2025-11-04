@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Vidcom</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="upload">Upload</string>
+    <string name="aboutApp">About App</string>
+    <string name="paragraph1">Aplikasi ini hanya mengkompress video dengan bitrate
+tinggi</string>
+    <string name="paragraph2">
+        Tidak disarankan video-video yan sudah dikompress atau
+di atur bitratenya
+    </string>
+    <string name="paragraph3">
+        Tidak disarankan untuk video dari youtube atau instagram
+    </string>
+</resources>
