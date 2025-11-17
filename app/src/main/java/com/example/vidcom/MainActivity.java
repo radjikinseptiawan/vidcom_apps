@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
         uploadBtn = findViewById(R.id.uploadbtn);
+
         uploadBtn.setOnClickListener(v->{
             Intent intent = new Intent(android.content.Intent.ACTION_PICK, MediaStore.Video.Media.EXTERNAL_CONTENT_URI);
             getIntent().setType("video/*");
