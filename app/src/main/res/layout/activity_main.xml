@@ -20,6 +20,7 @@
         <Button
             android:id="@+id/loginbtn"
             android:layout_width="wrap_content"
+            android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:text="@string/login"
             android:layout_marginLeft="10dp"
@@ -29,6 +30,7 @@
 
         <Button
             android:id="@+id/registerbtn"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/register"
@@ -54,6 +56,7 @@
 
         <Button
             android:id="@+id/uploadbtn"
+            android:textColor="@color/white"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
