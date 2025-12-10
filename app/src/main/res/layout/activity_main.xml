@@ -18,6 +18,7 @@
         >
 
         <Button
+            android:id="@+id/loginbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login"
@@ -27,6 +28,7 @@
 
 
         <Button
+            android:id="@+id/registerbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/register"

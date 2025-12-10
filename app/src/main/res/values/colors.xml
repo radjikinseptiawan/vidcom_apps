@@ -6,4 +6,5 @@
     <color name="navbar">#003C06</color>
     <color name="btnColor">#07270D</color>
     <color name="textColor">#07400D</color>
+    <color name="inputColor">#e8e9eb</color>
 </resources>

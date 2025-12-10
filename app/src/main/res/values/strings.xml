@@ -14,4 +14,10 @@ di atur bitratenya
     <string name="paragraph3">
         Tidak disarankan untuk video dari youtube atau instagram
     </string>
+    <string name="loginText">Login</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="registerText">Register</string>
+    <string name="password">Password</string>
 </resources>

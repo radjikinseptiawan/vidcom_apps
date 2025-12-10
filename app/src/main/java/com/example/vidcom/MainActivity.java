@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    private Button uploadBtn;
+    private Button uploadBtn,loginbtn,registerbtn;
     private int PICK_VIDEO_REQUEST = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +27,8 @@ public class MainActivity extends AppCompatActivity {
             startActivityForResult(intent,PICK_VIDEO_REQUEST);
         });
 
+
+        loginbtn = findViewById(R.id.loginbtn);
+        registerbtn = findViewById(R.id.registerbtn);
     }
 }
