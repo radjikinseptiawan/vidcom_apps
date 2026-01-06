@@ -14,7 +14,7 @@
         android:id="@+id/flag"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/flag_id"
+        android:src="@drawable/flag_current"
         />
     <ImageView
         android:id="@+id/icon"

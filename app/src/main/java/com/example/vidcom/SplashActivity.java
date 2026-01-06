@@ -7,15 +7,17 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
+import java.util.Locale;
 
 public class SplashActivity extends AppCompatActivity {
     TextView text;
-    ImageView img,icon;
-    Animation top,bottom,top_img;
+    ImageView img, icon;
+    Animation top, bottom, top_img;
+    LocationHandler locationHandler;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_activity);
 
@@ -23,17 +25,28 @@ public class SplashActivity extends AppCompatActivity {
         img = findViewById(R.id.icon);
         icon = findViewById(R.id.flag);
 
-        top = AnimationUtils.loadAnimation(this,R.anim.top);
+        locationHandler = new LocationHandler(this);
+        locationHandler.updateLanguageBasedOnLocation();
+
+        top = AnimationUtils.loadAnimation(this, R.anim.top);
         top_img = AnimationUtils.loadAnimation(this, R.anim.top_img);
-        bottom = AnimationUtils.loadAnimation(this,R.anim.bottom);
+        bottom = AnimationUtils.loadAnimation(this, R.anim.bottom);
 
         text.startAnimation(bottom);
         img.startAnimation(top_img);
         icon.startAnimation(top);
-        new Handler().postDelayed(()->{
+
+        new Handler().postDelayed(() -> {
+
+            if (Locale.getDefault().getLanguage().equals("en")) {
+                icon.setImageResource(R.drawable.flag_uk);
+            } else {
+                icon.setImageResource(R.drawable.flag_current);
+            }
+
             Intent intent = new Intent(SplashActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
-        },2000);
+        }, 2000);
     }
 }

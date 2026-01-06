@@ -1,23 +1,23 @@
 <resources>
     <string name="app_name">Vidcom</string>
-    <string name="icon">icon</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="upload">Upload</string>
-    <string name="aboutApp">About App</string>
-    <string name="paragraph1">Aplikasi ini hanya mengkompress video dengan bitrate
+    <string name="icon" translatable="false">icon</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="upload" translatable="false">Upload</string>
+    <string name="aboutApp" translatable="false">Tentang Aplikasi</string>
+    <string name="paragraph1" translatable="false">Aplikasi ini hanya mengkompress video dengan bitrate
 tinggi</string>
-    <string name="paragraph2">
+    <string name="paragraph2" translatable="false">
         Tidak disarankan video-video yan sudah dikompress atau
 di atur bitratenya
     </string>
-    <string name="paragraph3">
+    <string name="paragraph3" translatable="false">
         Tidak disarankan untuk video dari youtube atau instagram
     </string>
-    <string name="loginText">Login</string>
-    <string name="username">Username</string>
-    <string name="email">Email</string>
-    <string name="confirmPassword">Confirm Password</string>
-    <string name="registerText">Register</string>
-    <string name="password">Password</string>
+    <string name="loginText" translatable="false">Login</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="confirmPassword" translatable="false">Confirm Password</string>
+    <string name="registerText" translatable="false">Register</string>
+    <string name="password" translatable="false">Password</string>
 </resources>

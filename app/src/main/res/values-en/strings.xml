@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vidcom</string>
+    <string name="aboutApp" translatable="false">About App</string>
+    <string name="paragraph2" translatable="false">We do not recommend videos that have been compressed or have their bitrate adjusted.</string>
+    <string name="paragraph1" translatable="false">This application only compresses videos with bitrate</string>
+    <string name="paragraph3">Not recommended for videos from YouTube or Instagram</string>
+    <string name="loginText" translatable="false">Login</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="confirmPassword" translatable="false">Confirm Password</string>
+    <string name="registerText" translatable="false">Register</string>
+    <string name="password" translatable="false">Password</string>
+</resources>
